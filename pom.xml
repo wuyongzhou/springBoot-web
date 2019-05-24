@@ -49,16 +49,16 @@
 
         <!-- 若html依赖和jsp依赖同时存在时，优先使用html -->
         <!-- 提供静态页面支持，页面需要放置在classpath/templates中-->
-        <dependency>
+        <!--<dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
-        </dependency>
+        </dependency>-->
         <!-- 提供jsp页面支持-->
-        <dependency>
+        <!--<dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>
             <scope>provided</scope>
-        </dependency>
+        </dependency>-->
 
         <!-- springBoot热部署依赖-->
         <dependency>
